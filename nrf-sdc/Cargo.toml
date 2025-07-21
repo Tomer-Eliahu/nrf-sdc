@@ -10,8 +10,8 @@ rust-version="1.77"
 
 [package.metadata.docs.rs]
 features = ["nrf52840", "peripheral", "central", "defmt"]
-default-target = "thumbv7em-none-eabihf"
-targets = ["thumbv7em-none-eabihf"]
+default-target = "thumbv8m.main-none-eabi"
+targets = ["thumbv8m.main-none-eabi"]
 
 [features]
 nrf52805 = ["nrf-mpsl/nrf52805", "nrf52"]
